@@ -1,0 +1,5 @@
+Tämä on tiedosto foobar2.txt
+Tällä rivillä ei ole etsittyä sanaa.
+Tämäkään rivi ei sisällä etsittyä sanaa.
+Tämä on ainoa rivi, joka sisältää etsityn sanan foo.
+Tämä on tiedoston viimeinen rivi, eikä se sisällä haettua sanaa.

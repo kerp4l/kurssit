@@ -1,0 +1,38 @@
+extends layout
+
+block dynamic_content
+	h3 Player turn: #{title}
+	table
+		tr
+			td #{cells[0]}
+			td #{cells[1]}
+			td #{cells[2]}
+			td #{cells[3]}
+			td #{cells[4]}
+		tr
+			td #{cells[5]}
+			td #{cells[6]}
+			td #{cells[7]}
+			td #{cells[8]}
+			td #{cells[9]}
+		tr
+			td #{cells[10]}
+			td #{cells[11]}
+			td #{cells[12]}
+			td #{cells[13]}
+			td #{cells[14]}
+		tr
+			td #{cells[15]}
+			td #{cells[16]}
+			td #{cells[17]}
+			td #{cells[18]}
+			td #{cells[19]}
+		tr
+			td #{cells[20]}
+			td #{cells[21]}
+			td #{cells[22]}
+			td #{cells[23]}
+			td #{cells[24]}
+	form(method='POST' action='')
+		button.btn.btn-primary(type='submit') Reset
+

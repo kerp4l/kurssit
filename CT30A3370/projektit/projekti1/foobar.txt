@@ -1,0 +1,6 @@
+Tämä on tiedosto foobar.txt
+Tällä rivillä on etsitty sana "foo".
+Tälläkin rivillä on etsitty sana "Foo", mutta riviä ei tulosteta, koska sana on kirjoitettu isolla F:llä.
+Tällä rivillä ei ole haettua sanaa.
+Tältä riviltä saattaa löytyä etsitty sana, foo foo foobar.
+Tämä on tiedoston viimeinen rivi, eikä sisällä etsittyä sanaa.

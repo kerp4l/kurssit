@@ -1,0 +1,8 @@
+#!/bin/bash
+# args.bash - test arguments
+echo Running $0
+echo $1$2 and $3
+ext=.txt
+name=another
+echo $3$ext ${name}file
+

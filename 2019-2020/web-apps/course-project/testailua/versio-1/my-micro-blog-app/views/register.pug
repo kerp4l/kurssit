@@ -1,0 +1,16 @@
+extends layout
+
+block dynamic_content
+	h1 Registration
+	form(method='POST' action='')
+		label(for='un') Username
+		input#un.form-control(type='text', name='username')
+		br
+		label(for='pw1') Password
+		input#pw1.form-control(type='text', name='username')
+		br
+		label(for='pw2') Password again
+		input#pw2.form-control(type='text', name='username')
+		br
+		button.btn.btn-primary(type='submit') Register
+

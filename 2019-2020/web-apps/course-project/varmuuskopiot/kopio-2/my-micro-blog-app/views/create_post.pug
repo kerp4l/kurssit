@@ -1,0 +1,12 @@
+extends layout
+
+block dynamic_content
+	h3 Create a new post
+	form(method='POST' action='')
+		label(for='un') Username
+		input#un.form-control(type='text', name='username')
+		br
+		label(for='blog_post') Post content
+		input#blog_post.form-control(type='text', name='post_text')
+		button.btn.btn-primary(type='submit') Find posts
+

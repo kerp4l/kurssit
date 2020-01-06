@@ -1,0 +1,16 @@
+extends layout
+
+block dynamic_content
+	h1 Log in
+	form(method='POST' action='')
+		label(for='un') Username
+		input#un.form-control(type='text', name='username')
+		br
+		label(for='pw') Password
+		input#pw.form-control(type='text', name='username')
+		br
+		button.btn.btn-primary(type='submit') Log in
+	p Not yet registered user?
+	p Click 
+		a(href='/home/register') HERE
+		|  to register.

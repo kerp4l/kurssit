@@ -1,0 +1,21 @@
+extends layout
+
+block dynamic_content
+	h3 Create a new post
+	form(method='POST' action='')
+		p Blog post content
+		label(for='blog_post') Post content
+		input#blog_post.form-control(type='text', name='post_text')
+		br
+		p User authentication
+		label(for='un') Username
+		input#un.form-control(type='text', name='username')
+		br
+		label(for='pw') Password
+		input#pw.form-control(type='text', name='password')
+		button.btn.btn-primary(type='submit') Submit post
+	if errors 
+		ul
+			for error in errors
+				li!= error.msg
+

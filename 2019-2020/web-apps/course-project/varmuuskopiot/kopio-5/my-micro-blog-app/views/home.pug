@@ -1,0 +1,9 @@
+extends layout
+
+block homepage
+		h1 Welcome to Micro Blogger 5000 X Pro 
+		if error
+			h3 Unfortunatelly something went wrong and we are not able to get data about posted blogs.
+			h3 Please refresh page or try again later.
+		else
+			h3 We currently have #{data.user_count} registered users who have already posted #{data.post_count} posts.

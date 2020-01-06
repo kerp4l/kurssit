@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# CT30A3370 Käyttöjärjestelmät ja systeemiohjelmointi
+#  Harjoitus 8, tehtävä 5
+# Topi Jussinniemi 0401301
+# search_page
+
+find /usr/share/man/ -name $1*

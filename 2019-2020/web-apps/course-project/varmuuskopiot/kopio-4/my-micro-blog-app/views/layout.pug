@@ -1,0 +1,16 @@
+doctype html
+html
+	head
+		title micro-blog-app
+		link(rel='stylesheet', href='/stylesheets/style.css')
+	body
+		a(href='/home') Home
+		br
+		a(href='/home/posts') Posts
+		br
+		a(href='/home/create_post') Create a new post
+		br
+		a(href='/home/register') Register
+		br
+		block homepage
+		block dynamic_content

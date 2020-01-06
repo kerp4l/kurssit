@@ -1,0 +1,26 @@
+extends layout
+
+block dynamic_content
+	h3 Registration
+	form(method='POST' action='')
+		label(for='un') Username
+		input#un.form-control(type='text', name='username')
+		br
+		label(for='pw1') Password
+		input#pw1.form-control(type='password', name='password1')
+		br
+		label(for='pw2') Password again
+		input#pw2.form-control(type='password', name='password2')
+		button.btn.btn-primary(type='submit') Register
+	if new_user
+		p New user was created succesfully!
+		p Username: #{new_user}
+		p Click 
+			a(href='/home/create_post') HERE
+			|  to post your first blog post.
+	if error_msg
+		p #{error_msg}
+	if errors 
+		for error in errors
+			p!= error.msg
+

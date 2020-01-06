@@ -1,0 +1,11 @@
+echo $Shell
+echo \$Shell
+echo \\$Shell
+echo \\\$Shell
+echo '\$'
+echo \\
+echo \\\
+echo "\$"
+echo '"$'
+echo "$"
+

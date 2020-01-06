@@ -1,0 +1,13 @@
+extends layout
+
+block dynamic_content
+	h3 Search posts by other users.
+	form(method='POST' action='')
+		label(for='search_field') Username
+		input#search_field.form-control(type='text', name='username')
+		button.btn.btn-primary(type='submit') Find posts
+	h3= title
+	if data
+		each post in data
+			p #{post.username} #{post.post_date_formatted}
+			p #{post.blog_content}

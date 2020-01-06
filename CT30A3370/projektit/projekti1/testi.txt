@@ -1,0 +1,5 @@
+Tämä on tiedosto testi.txt
+Tässä on tekstiä.
+Tässä on lisää tekstiä.
+Tässäkin on tekstiä.
+Tämän jälkeen ei tule enää tekstiä.

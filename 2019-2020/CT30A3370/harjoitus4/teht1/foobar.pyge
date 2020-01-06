@@ -1,0 +1,5 @@
+print("Vittu mitä paskaa!")
+
+def foo():
+	print("Tasty banana!")
+
